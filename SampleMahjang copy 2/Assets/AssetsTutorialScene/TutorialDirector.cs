@@ -23,4 +23,8 @@ public class TutorialDirector : MonoBehaviour {
 	public void toFirstTutorialScene(){
 		SceneManager.LoadScene ("FirstTutorialScene");
 	}
+
+	public void toSecondTutorialScene(){
+		SceneManager.LoadScene("SecondTutorialScene");
+	}
 }

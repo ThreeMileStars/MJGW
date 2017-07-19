@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9B711137-91C7-3603-C491-9CF5060983FB}</ProjectGuid>
+    <ProjectGuid>{5796824F-A7F7-E7A5-231D-49A9A063F9DF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,6 +51,10 @@
      <Compile Include="Assets\AssetsTutorialScene\AssetsFirstTutorialScene\Heart0Controller.cs" />
      <Compile Include="Assets\AssetsTutorialScene\AssetsFirstTutorialScene\TutorialController.cs" />
      <Compile Include="Assets\AssetsTutorialScene\AssetsSecondTutorialScene\SecondTutorialDirector.cs" />
+     <Compile Include="Assets\AssetsTutorialScene\AssetsSecondTutorialScene\StartSetup.cs" />
+     <Compile Include="Assets\AssetsTutorialScene\AssetsSecondTutorialScene\TileAsset.cs" />
+     <Compile Include="Assets\AssetsTutorialScene\AssetsSecondTutorialScene\TileSupply.cs" />
+     <Compile Include="Assets\AssetsTutorialScene\AssetsSecondTutorialScene\Touch.cs" />
      <Compile Include="Assets\AssetsTutorialScene\TutorialDirector.cs" />
      <Compile Include="Assets\AssetsInformationScene\InformationDirector.cs" />
      <Compile Include="Assets\AssetsRuleTopScene\AssetsDifferentTilesScene\AssetsGroupTypeScene\AssetsThirdBasicRuleScene\RectanglesController.cs" />
@@ -74,8 +78,6 @@
      <Compile Include="Assets\AssetsRuleTopScene\RuleTopDirector.cs" />
      <Compile Include="Assets\AssetsStartScene\StartDirector.cs" />
      <Compile Include="Assets\AssetsStartScene\WongController.cs" />
-     <Compile Include="Assets\Mobile Game GUI Vector Pack\DEMO_Scripts\DEMO_CreateWindowShareLink.cs" />
-     <Compile Include="Assets\Mobile Game GUI Vector Pack\DEMO_Scripts\DEMO_DestroyWindow.cs" />
      <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -101,7 +103,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{0147A7D1-F46A-2CB4-8440-F5031C77005B}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{6507A930-BD3B-CEF5-A157-41750EB7B14C}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
