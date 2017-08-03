@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SecondTutorialDirector : MonoBehaviour {
+public class SecondTutorialDirector : MonoBehaviour{
 
 	// Use this for initialization
 	void Start () {
