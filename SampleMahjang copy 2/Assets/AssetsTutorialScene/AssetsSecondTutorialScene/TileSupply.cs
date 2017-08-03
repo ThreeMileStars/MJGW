@@ -23,8 +23,10 @@ public class TileSupply : MonoBehaviour {
 		bool _onTheBoard= tempObj.GetComponent<TileAsset>().onTheBoard;
 		if(_onTheBoard==false)
 		{
-			tempObj.GetComponent<TileAsset>().onTheCentre=true;
+			
 			iTween.MoveTo(tempObj,iTween.Hash("position",new Vector3(0,0,0),"time",0.2f));
+			tempObj.GetComponent<TileAsset>().onTheCentre=true;
+			tempObj.GetComponent<TileAsset>().onTheBoard=true;
 		}
 		if(_onTheBoard==true)
 		{

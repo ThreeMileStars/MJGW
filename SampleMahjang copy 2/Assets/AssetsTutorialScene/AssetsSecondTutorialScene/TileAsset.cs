@@ -4,24 +4,23 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 
 
-public enum TileType
+public enum TileTypes
 {
 	diamond,heart,Arrow,direction,bonus,insurance
 }
 [ExecuteInEditMode]
 public class TileAsset : MonoBehaviour {
 
-
-
 [Header("Tile Info")]
 //public int IndexNO;
 public string tileName;
-public TileType TileType;
+public TileTypes TileTypes;
 public int tileNumber;
 
 [Header("Tile state")]
 public bool onTheBoard=false;
 public bool onTheCentre=false;
+
 
 [Header("Tile Images")]
 public RectTransform TileFront;
